@@ -16,5 +16,6 @@ namespace proj_academia.Models
         public string Obs { get; set; }
         public int PersonalID { get; set; }
         public Personal personal { get; set; }
+        public Treino treino { get; set; }
     }
 }

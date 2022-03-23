@@ -11,5 +11,6 @@ namespace proj_academia.Models
         public string Nome { get; set; }
         public string Categoria { get; set; }
         public string Descricao { get; set; }
+        public ICollection<Treino> treinos { get; set; }
     }
 }
